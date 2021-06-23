@@ -46,11 +46,13 @@
   ![image](https://user-images.githubusercontent.com/54203997/123056646-b03dda00-d439-11eb-8adf-16eeb9da148b.png)
   ![image](https://user-images.githubusercontent.com/54203997/123056669-b6cc5180-d439-11eb-8ebe-67e2ff54cca3.png)
 - 进入战斗大厅
+
   ![image](https://user-images.githubusercontent.com/54203997/123056756-cba8e500-d439-11eb-9f04-5d69598dd2ef.png)
 - 战斗模拟
+
   ![image](https://user-images.githubusercontent.com/54203997/123056792-d6fc1080-d439-11eb-95d3-7341341f30fb.png)
-![image](https://user-images.githubusercontent.com/54203997/123056802-d95e6a80-d439-11eb-8859-0769758bfc1c.png)
-![image](https://user-images.githubusercontent.com/54203997/123056810-dbc0c480-d439-11eb-9bc7-9de0b8e523a4.png)
+  ![image](https://user-images.githubusercontent.com/54203997/123056802-d95e6a80-d439-11eb-8859-0769758bfc1c.png)
+  ![image](https://user-images.githubusercontent.com/54203997/123056810-dbc0c480-d439-11eb-9bc7-9de0b8e523a4.png)
 
 ## 如何使用源代码生成可执行文件
 1.	确保对应文件夹所在路径没有中文，将对应文件夹移动至纯英文目录下
