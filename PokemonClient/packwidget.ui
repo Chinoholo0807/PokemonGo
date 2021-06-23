@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PackWidget</class>
+ <widget class="QWidget" name="PackWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButtonBack">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>547</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+QPushButton {
+	font: 75 14pt &quot;Segoe Print&quot;;
+    background-color: palegoldenrod;
+   border-color: rgb(16, 16, 16);
+	border: 2px solid rgb(0,0,0);
+	border-radius : 15px;
+}
+
+QPushButton:hover {
+   background-color: khaki;
+}
+
+/* Increase the padding, so the text is shifted when the button is
+   pressed. */
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #d0d67c;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="listViewPokemon">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>281</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color:rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 4px solid rgb(0,0,0);
+border-radius : 15px;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>30</y>
+     <width>261</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget
+{
+background-color: rgb(158, 255, 218);
+border: 3px solid rgb(0,0,0);
+border-radius : 15px;
+}
+</string>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>221</width>
+      <height>194</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget
+{
+background-color: rgb(158, 255, 218);
+border: 3px solid rgb(0,0,0);
+border-radius : 15px;
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">
+font: 10pt &quot;幼圆&quot;;</string>
+       </property>
+       <property name="text">
+        <string>用户名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelUserName">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 2px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">
+font: 10pt &quot;幼圆&quot;;</string>
+       </property>
+       <property name="text">
+        <string>胜场数</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="labelWinCount">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 2px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">
+font: 10pt &quot;幼圆&quot;;</string>
+       </property>
+       <property name="text">
+        <string>败场数</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="labelLostCount">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 2px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">
+font: 10pt &quot;幼圆&quot;;</string>
+       </property>
+       <property name="text">
+        <string>胜率</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="labelWinRate">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 2px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">
+font: 10pt &quot;幼圆&quot;;</string>
+       </property>
+       <property name="text">
+        <string>拥有精灵数</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="labelPCount">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 2px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widgetPokemonShow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>320</y>
+     <width>341</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 190, 252);
+border-color: rgb(16, 16, 16);
+border: 4px solid rgb(0,0,0);
+border-radius : 15px;</string>
+   </property>
+   <widget class="QLabel" name="labelPic">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+
+background-color: rgb(255, 255, 255);
+border-color: rgb(16, 16, 16);
+border: 4px solid rgb(0,0,0);
+border-radius : 1px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>10</y>
+      <width>151</width>
+      <height>196</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Speed</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="labelSpeed">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Definse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(255, 190, 252);
+border-color: rgb(16, 16, 16);
+border: 0px solid rgb(0,0,0);
+border-radius : 15px;</string>
+       </property>
+       <property name="text">
+        <string>Attack</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="labelHP">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelAttack">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="labelDefinse">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>240</y>
+     <width>381</width>
+     <height>69</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Segoe Print&quot;;
+background-color: rgb(115, 225, 255);
+border-color: rgb(16, 16, 16);
+border: 4px solid rgb(0,0,0);
+border-radius : 15px;</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="labelMedal0Pic">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+border: 0px solid rgb(0,0,0);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelMedal0Text">
+      <property name="styleSheet">
+       <string notr="true">
+font: 10pt &quot;幼圆&quot;;
+
+border: 0px solid rgb(0,0,0);
+</string>
+      </property>
+      <property name="text">
+       <string>宠物个数勋章</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelMedal1Pic">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+border: 0px solid rgb(0,0,0);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelMedal1Text">
+      <property name="styleSheet">
+       <string notr="true">
+font: 10pt &quot;幼圆&quot;;
+
+border: 0px solid rgb(0,0,0);
+</string>
+      </property>
+      <property name="text">
+       <string>高级宠物勋章</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

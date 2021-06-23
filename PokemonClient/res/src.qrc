@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>hallWidget2.png</file>
+        <file>logWidget.png</file>
+    </qresource>
+</RCC>

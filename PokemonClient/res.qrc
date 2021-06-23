@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/logWidget.png</file>
+        <file>res/pokemonPic/bulbasaur.png</file>
+        <file>res/pokemonPic/charmander.png</file>
+        <file>res/pokemonPic/squirtle.png</file>
+        <file>res/icon.png</file>
+        <file>res/fightingWidget.png</file>
+        <file>res/pokemonPic/bulbasaurL.gif</file>
+        <file>res/pokemonPic/bulbasaurR.gif</file>
+        <file>res/pokemonPic/charmanderL.gif</file>
+        <file>res/pokemonPic/charmanderR.gif</file>
+        <file>res/pokemonPic/squirtleL.gif</file>
+        <file>res/pokemonPic/squirtleR.gif</file>
+        <file>res/bronze.png</file>
+        <file>res/gold.png</file>
+        <file>res/silver.png</file>
+        <file>res/none.png</file>
+        <file>res/hallWidget.jpg</file>
+        <file>res/preview.jpg</file>
+        <file>res/pokemonPic/pikachu.png</file>
+        <file>res/pokemonPic/psyduck.png</file>
+        <file>res/pokemonPic/psyduckL.gif</file>
+        <file>res/pokemonPic/psyduckR.gif</file>
+        <file>res/pokemonPic/pikachuR.gif</file>
+        <file>res/pokemonPic/pikachuL.gif</file>
+        <file>res/pokemonPic/jigglypuff.png</file>
+        <file>res/pokemonPic/jigglypuffL.gif</file>
+        <file>res/pokemonPic/jigglypuffR.gif</file>
+    </qresource>
+</RCC>
